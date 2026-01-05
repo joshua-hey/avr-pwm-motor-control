@@ -8,7 +8,7 @@ and display real-time data on an I2C OLED.
 - Timer-driven PWM (compare interrupts)
 - External interrupt pulse counting (RPM)
 - Real-time display over I2C (SSD1306)
-- Measured duty-cycle accuracy (see docs/report.pdf)
+- Measured duty-cycle accuracy (see [report](docs/report.pdf))
 
 ## Hardware
 - ATmega324PB (16 MHz)
@@ -17,5 +17,5 @@ and display real-time data on an I2C OLED.
 - SSD1306 OLED over I2C
 
 ## Files
-- Firmware: `src/main.c`
-- Report + measurements: `docs/report.pdf`
+- Firmware: [`src/main.c`](src/main.c)
+- Report + measurements: [`docs/report.pdf`](docs/report.pdf)
